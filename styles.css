@@ -1,3 +1,61 @@
 * {
   box-sizing: border-box;
 }
+body {
+  margin: 0;
+}
+
+header {
+  background-color: #120323;
+  color: #97bf04;
+}
+
+h1 {
+  text-align: center;
+  padding: 2rem;
+}
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#animal {
+  max-width: 900px;
+  max-height: 600px;
+  box-shadow: 0 0 16px 10px black;
+  border-radius: 10px;
+}
+
+button {
+  margin: 2rem 0;
+  padding: 10px;
+  border-radius: 10px;
+  background-color: #d9043d;
+}
+
+.blackBearButton {
+  #bear {
+    background-color: #97bf04;
+  }
+}
+.elkButton {
+  #elk {
+    background-color: #97bf04;
+  }
+}
+.mooseButton {
+  #moose {
+    background-color: #97bf04;
+  }
+}
+.bigHornSheepButton {
+  #sheep {
+    background-color: #97bf04;
+  }
+}
+.wolfButton {
+  #wolf {
+    background-color: #97bf04;
+  }
+}
